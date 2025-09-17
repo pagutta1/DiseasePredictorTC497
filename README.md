@@ -99,14 +99,13 @@ graph TB
 
 ### Technology Stack
 
-| Component          | Technology   | Purpose                                                     |
-| ------------------ | ------------ | ----------------------------------------------------------- |
-| **Frontend**       | Next.js      | Modern React framework with server-side rendering           |
-| **Styling**        | TailwindCSS  | Utility-first CSS framework for rapid development           |
-| **Backend**        | Flask        | Lightweight Python web framework for API development        |
-| **ML Model**       | scikit-learn | Machine learning library with Random Forest implementation  |
-| **AI Integration** | U-M GPT API  | University-provided API for natural language explanations   |
-
+| Component          | Technology   | Purpose                                                    |
+| ------------------ | ------------ | ---------------------------------------------------------- |
+| **Frontend**       | Next.js      | Modern React framework with server-side rendering          |
+| **Styling**        | TailwindCSS  | Utility-first CSS framework for rapid development          |
+| **Backend**        | Flask        | Lightweight Python web framework for API development       |
+| **ML Model**       | scikit-learn | Machine learning library with Random Forest implementation |
+| **AI Integration** | U-M GPT API  | University-provided API for natural language explanations  |
 
 ## 🚀 Getting Started
 
@@ -417,7 +416,6 @@ A: Remember this is an educational demo. The model was trained on limited data a
 **Q: How can I contribute to this project?**  
 A: See the [Contributing](#-contributing) section below. We welcome bug reports, feature requests, and code contributions!
 
-
 ## 🛠️ Development
 
 ### Future Plans
@@ -431,14 +429,12 @@ We will collect user data with consent to train our model on more disease and sy
 - Backend uses Flask for lightweight API services
 - U-M GPT integration provides natural language explanations for predictions
 
-
 ## 📚 Additional Resources
 
 ### Dataset Information
 
 - **Supported Diseases**: [View complete list](https://github.com/masterspin/DiseasePredictor/blob/main/src/diseases.txt)
 - **Supported Symptoms**: [View complete list](https://github.com/masterspin/DiseasePredictor/blob/main/src/symptoms.txt)
-
 
 ---
 
