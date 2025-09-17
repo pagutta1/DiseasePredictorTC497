@@ -39,12 +39,12 @@ This is an **educational project only** and should not be used for medical diagn
 
 ## 📋 Table of Contents
 
-- [🎯 Overview](#-overview)
-- [🏗️ Architecture](#️-architecture)
-- [🚀 Quickstart](#-quickstart)
+- [🎯 About This Project](#-about-this-project)
+- [🏗️ Architecture Overview](#️-architecture-overview)
+- [🚀 Getting Started](#-getting-started)
   - [Prerequisites](#-prerequisites)
-  - [Backend (Flask) Setup](#-backend-flask-setup)
-  - [Frontend (Next.js) Setup](#️-frontend-nextjs-setup)
+  - [Backend Setup (Flask API)](#-backend-setup-flask-api)
+  - [⚛️ Frontend (Next.js) Setup](#️-frontend-nextjs-setup)
 - [✨ Features](#-features)
 - [🔌 API Documentation](#-api-documentation)
   - [POST /model](#post-model)
@@ -52,9 +52,7 @@ This is an **educational project only** and should not be used for medical diagn
 - [💡 Usage Examples](#-usage-examples)
 - [❓ Frequently Asked Questions](#-frequently-asked-questions)
 - [🛠️ Development](#️-development)
-- [🤝 Contributing](#-contributing)
-- [🙏 Acknowledgements](#-acknowledgements)
-- [📄 License](#-license)
+- [📚 Additional Resources](#-additional-resources)
 
 ---
 
@@ -62,40 +60,7 @@ This is an **educational project only** and should not be used for medical diagn
 
 The project is structured with a clear separation between the frontend interface and backend processing. Here's how the components work together:
 
-```mermaid
-graph TB
-    subgraph "Frontend Layer"
-        A[Next.js Web App] --> B[TailwindCSS UI]
-        A --> C[React Components]
-    end
-
-    subgraph "Backend Layer"
-        D[Flask API Server] --> E[Random Forest Model]
-        D --> F[GPT Integration]
-        D --> G[Model Serialization]
-    end
-
-    subgraph "Data Layer"
-        H[Scikit-learn Model] --> I[Joblib Serialization]
-        J[Feature Engineering] --> H
-        K[Training Data] --> J
-    end
-
-    subgraph "External Services"
-        L[U-M GPT API] --> F
-    end
-
-    A -->|HTTP Requests| D
-    D -->|Predictions| A
-    E -->|ML Predictions| D
-    F -->|AI Explanations| D
-    G -->|Model Loading| E
-
-    style A fill:#61dafb
-    style D fill:#ff6b6b
-    style E fill:#4ecdc4
-    style F fill:#45b7d1
-```
+![Architecture Diagram](TC497diagram.jpeg)
 
 ### Technology Stack
 
@@ -205,12 +170,21 @@ DiseasePredictor offers a comprehensive suite of features designed for accurate 
 - **High Accuracy** (~94.3% Top-1, ~100% Top-3 on test data)
 - **Comprehensive Symptom Support** (100+ symptoms supported)
 
+![Feature Demo](diseasepredictor1mov.gif)
+_Feature demonstration showing the prediction interface in action_
+
 ### 🎨 User Interface
 
 - **Modern Web Interface** built with Next.js and TailwindCSS
 - **Responsive Design** works on desktop, tablet, and mobile
 - **Intuitive Symptom Entry** with autocomplete suggestions
 - **Clean Results Display** with confidence indicators
+
+![Feature Demo](diseasepredictor2mov.gif)
+_Feature demonstration showing how many features you can select from_
+
+![Feature Demo](diseasepredictor3mov.gif)
+_Feature demonstration showing how to change the input symptoms to update results_
 
 ### 🤖 AI Integration
 
@@ -224,9 +198,6 @@ DiseasePredictor offers a comprehensive suite of features designed for accurate 
 - **Model Serialization** using Joblib for efficient loading
 - **Environment Configuration** for easy deployment
 - **Error Handling** with graceful fallbacks
-
-![Feature Demo](https://via.placeholder.com/800x400/8b5cf6/ffffff?text=Feature+Demo+GIF)
-_Feature demonstration - replace with actual GIF showing the prediction interface_
 
 ## 🔌 API Documentation
 
@@ -360,9 +331,6 @@ curl -X POST http://localhost:8080/model \
     "feature_matrix": ["chills", "fever", "cough", "fatigue"]
   }'
 ```
-
-![Usage Demo](https://via.placeholder.com/800x400/f59e0b/ffffff?text=Usage+Demo+GIF)
-_Usage demonstration - replace with actual GIF showing the API in action_
 
 ## ❓ Frequently Asked Questions
 
