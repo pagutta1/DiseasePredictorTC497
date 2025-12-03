@@ -169,6 +169,7 @@ DiseasePredictor offers a comprehensive suite of features designed for accurate 
 - **Real-time Analysis** using Random Forest Classifier
 - **High Accuracy** (~94.3% Top-1, ~100% Top-3 on test data)
 - **Comprehensive Symptom Support** (100+ symptoms supported)
+- **GPT-Powered Explanations**  of ~20 words for each predicted disease
 
 ![Prediction Interface Demo](diseasepredictor1mov.gif)
 _Feature demonstration showing the prediction interface in action_
@@ -185,12 +186,6 @@ _Feature demonstration showing how many symptoms you can select from_
 
 ![Updating Symptoms Demo](diseasepredictor3mov.gif)
 _Feature demonstration showing how to change the input symptoms to update results_
-
-### 🤖 AI Integration
-
-- **GPT-Powered Explanations** for each predicted disease
-- **Natural Language Descriptions** (~20 words per disease)
-- **Educational Content** to help users understand predictions
 
 ## 🔌 API Documentation
 
