@@ -31,7 +31,7 @@
 - **Developers** interested in medical AI implementations
 - **Educators** looking for examples of ML in healthcare contexts
 
-### ⚠️ Important Disclaimer
+### Important Disclaimer
 
 This is an **educational project only** and should not be used for medical diagnosis or treatment decisions. Always consult qualified healthcare professionals for medical advice.
 
@@ -44,7 +44,7 @@ This is an **educational project only** and should not be used for medical diagn
 - [🚀 Getting Started](#-getting-started)
   - [Prerequisites](#-prerequisites)
   - [Backend Setup (Flask API)](#-backend-setup-flask-api)
-  - [⚛️ Frontend (Next.js) Setup](#️-frontend-nextjs-setup)
+  - [Frontend (Next.js) Setup](#️frontend-nextjs-setup)
 - [✨ Features](#-features)
 - [🔌 API Documentation](#-api-documentation)
   - [POST /model](#post-model)
@@ -132,7 +132,7 @@ Before starting, ensure you have the following software installed:
    ```
    The API server will be available at `http://localhost:8080`.
 
-### ⚛️ Frontend (Next.js) Setup
+### Frontend (Next.js) Setup
 
 1. **Install frontend dependencies**
 
@@ -163,7 +163,7 @@ Before starting, ensure you have the following software installed:
 
 DiseasePredictor offers a comprehensive suite of features designed for accurate disease prediction and user-friendly interaction:
 
-### 🔮 Core Prediction Features
+### Core Prediction Features
 
 - **Top-3 Disease Predictions** with confidence percentages
 - **Real-time Analysis** using Random Forest Classifier
@@ -174,7 +174,7 @@ DiseasePredictor offers a comprehensive suite of features designed for accurate 
 ![Prediction Interface Demo](diseasepredictor1mov.gif)
 _Feature demonstration showing the prediction interface in action_
 
-### 🎨 User Interface
+### User Interface
 
 - **Modern Web Interface** built with Next.js and TailwindCSS
 - **Responsive Design** works on desktop, tablet, and mobile
@@ -376,7 +376,7 @@ A: See the [Contributing](#-contributing) section below. We welcome bug reports,
 
 ## 🛠️ Future Development Plans
 
-We will collect user data with consent to train our model on more disease and symptoms to increase our accuracy and repertoire. We plan to add a feature where users can upload their data to our firebase storage. Overall, we want people to have access to quick diagnosis from the click of a button to improve overall public health.
+We will collect user data with consent to train our model on more diseases and symptoms to increase our accuracy and repertoire. We plan to add a feature where users can upload their data to our firebase storage. Overall, we want people to have access to quick preliminary insights at the click of a button to improve overall public health.
 
 ## 📚 Additional Resources
 
