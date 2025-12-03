@@ -170,7 +170,7 @@ DiseasePredictor offers a comprehensive suite of features designed for accurate 
 - **High Accuracy** (~94.3% Top-1, ~100% Top-3 on test data)
 - **Comprehensive Symptom Support** (100+ symptoms supported)
 
-![Feature Demo](diseasepredictor1mov.gif)
+![Prediction Interface Demo](diseasepredictor1mov.gif)
 _Feature demonstration showing the prediction interface in action_
 
 ### 🎨 User Interface
@@ -180,10 +180,10 @@ _Feature demonstration showing the prediction interface in action_
 - **Intuitive Symptom Entry** with autocomplete suggestions
 - **Clean Results Display** with confidence indicators
 
-![Feature Demo](diseasepredictor2mov.gif)
-_Feature demonstration showing how many features you can select from_
+![Symptom Selection Demo](diseasepredictor2mov.gif)
+_Feature demonstration showing how many symptoms you can select from_
 
-![Feature Demo](diseasepredictor3mov.gif)
+![Updating Symptoms Demo](diseasepredictor3mov.gif)
 _Feature demonstration showing how to change the input symptoms to update results_
 
 ### 🤖 AI Integration
