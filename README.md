@@ -192,13 +192,6 @@ _Feature demonstration showing how to change the input symptoms to update result
 - **Natural Language Descriptions** (~20 words per disease)
 - **Educational Content** to help users understand predictions
 
-### 🔧 Technical Features
-
-- **RESTful API** with comprehensive endpoints
-- **Model Serialization** using Joblib for efficient loading
-- **Environment Configuration** for easy deployment
-- **Error Handling** with graceful fallbacks
-
 ## 🔌 API Documentation
 
 DiseasePredictor provides a RESTful API for disease prediction and AI-powered explanations.
@@ -389,13 +382,6 @@ A: See the [Contributing](#-contributing) section below. We welcome bug reports,
 ### Future Plans
 
 We will collect user data with consent to train our model on more disease and symptoms to increase our accuracy and repertoire. We plan to add a feature where users can upload their data to our firebase storage. Overall, we want people to have access to quick diagnosis from the click of a button to improve overall public health.
-
-### Technical Implementation
-
-- The model uses a Random Forest Classifier with GridSearchCV for hyperparameter optimization
-- Frontend built with Next.js 13+ and TailwindCSS for a modern, responsive interface
-- Backend uses Flask for lightweight API services
-- U-M GPT integration provides natural language explanations for predictions
 
 ## 📚 Additional Resources
 
