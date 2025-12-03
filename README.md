@@ -51,7 +51,7 @@ This is an **educational project only** and should not be used for medical diagn
   - [POST /gpt](#post-gpt)
 - [💡 Usage Examples](#-usage-examples)
 - [❓ Frequently Asked Questions](#-frequently-asked-questions)
-- [🛠️ Development](#️-development)
+- [🛠️ Future Development Plans](#️-future-development-plans)
 - [📚 Additional Resources](#-additional-resources)
 
 ---
@@ -377,9 +377,7 @@ A: Remember this is an educational demo. The model was trained on limited data a
 **Q: How can I contribute to this project?**  
 A: See the [Contributing](#-contributing) section below. We welcome bug reports, feature requests, and code contributions!
 
-## 🛠️ Development
-
-### Future Plans
+## 🛠️ Future Development Plans
 
 We will collect user data with consent to train our model on more disease and symptoms to increase our accuracy and repertoire. We plan to add a feature where users can upload their data to our firebase storage. Overall, we want people to have access to quick diagnosis from the click of a button to improve overall public health.
 
