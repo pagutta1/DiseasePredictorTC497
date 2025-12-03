@@ -259,6 +259,8 @@ Content-Type: application/json
 
 ## 💡 Usage Examples
 
+These examples show how developers can interact with the DiseasePredictor API from different environments (frontend JavaScript, Python, and cURL).
+
 ### Basic Prediction Example
 
 ```javascript
